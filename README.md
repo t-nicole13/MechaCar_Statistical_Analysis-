@@ -17,7 +17,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ### Data
 - MechaCar_mpg.csv (mpg test results for 50 prototype cars)
-- Suspension_Coil.csv
+- Suspension_Coil.csv (results for multiple production lots)
 
 ## Results 
 
@@ -32,3 +32,14 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 - Vehicle length and ground clearance are likely to provide a non-random amount of variance to the mpg values in the dataset.  Both have very small p-values.
 - The slope may not be 0 because there appears to be a significant relationship between mpg and vehicle length, and mpg and ground clearance.  The r-squared value is very high (0.7149) which indicates there is a strong correlation.
 - This linear model predicts mpg of MechaCar prototypes effectively.  The r-squared value is very strong and above Pearson's range of r >= 0.7.  Also, the p-values are well below the normal range of 0.05 which indicates the null hypotheses can be rejected.
+
+
+### Summary Statistics on Suspension Coils
+
+- Total Summary
+![Getting Started](images/D2%20-%20total.png)
+
+- Lot Summary
+![Getting Started](images/D2-lot.png)
+
+- The variance for lot 3 exceeds the 100 PSI limit and does not meet the design specs.  Lots 1 and 2 have variances under 100 PSI and meet the design specs.   The total PSI meets the design specs, the variance is below 100 PSI.
