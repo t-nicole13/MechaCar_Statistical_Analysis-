@@ -27,7 +27,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 ![Getting Started](images/D1%20-%20lm.png)
 
 
-- Summary 
+#### Summary 
 
 ![Getting Started](images/D1-summary.png)
 
@@ -38,12 +38,42 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ### Summary Statistics on Suspension Coils
 
-- Total Summary
+#### Total Summary
 
 ![Getting Started](images/D2%20-%20total.png)
 
-- Lot Summary
+#### Lot Summary
 
 ![Getting Started](images/D2-lot.png)
 
 - The variance for lot 3 exceeds the 100 PSI limit and does not meet the design specs.  Lots 1 and 2 have variances under 100 PSI and meet the design specs.   The total PSI meets the design specs, the variance is below 100 PSI.
+
+
+### T-Tests on Suspension Coils
+
+#### Across All Lots
+
+![Getting Started](images/D3-all-lots.png)
+
+- The p-value(0.06028) is only slightly above the normal level of 0.05. Therefore, there may not be a statistical difference across all lots and the population mean(1500).  The mean across all lots is only 1.22 points less than the population mean.
+
+
+#### Lot 1
+
+![Getting Started](images/D3-Lot1.png)
+
+- The p-value(1) is above the normal level of 0.05.  Therefore, there is not a statistical difference between lot 1 and the population mean (1500).  The mean of lot 1 and the population mean are both 1500.
+
+#### Lot 2
+
+![Getting Started](images/D3-Lot2.png)
+
+- The p-value(0.6072) is only slightly above the normal level of 0.05.  The mean of lot 2 is only 0.2 points above the population mean (1500).  Therefore, there is no statistical difference between lot 1 and the population.
+
+#### Lot 3
+
+![Getting Started](images/D3-Lot3.png)
+
+- The p-value(0.04168) is slightly below the normal level of 0.05.  The mean of lot 3 is 3.86 points below th population mean (1500). Therefore, there is a slight statistical difference between lot 3 and the population mean.
+
+
