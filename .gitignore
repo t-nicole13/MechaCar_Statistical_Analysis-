@@ -1,0 +1,7 @@
+# ignore Icon
+Icon
+
+
+# ignore csv files
+MechaCar_mpg.csv
+Suspension_Coil.csv
