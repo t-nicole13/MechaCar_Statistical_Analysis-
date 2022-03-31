@@ -23,10 +23,12 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ### Linear Regression to Predict MPG
 - Linear Regression
+
 ![Getting Started](images/D1%20-%20lm.png)
 
 
 - Summary 
+
 ![Getting Started](images/D1-summary.png)
 
 - Vehicle length and ground clearance are likely to provide a non-random amount of variance to the mpg values in the dataset.  Both have very small p-values.
@@ -37,9 +39,11 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 ### Summary Statistics on Suspension Coils
 
 - Total Summary
+
 ![Getting Started](images/D2%20-%20total.png)
 
 - Lot Summary
+
 ![Getting Started](images/D2-lot.png)
 
 - The variance for lot 3 exceeds the 100 PSI limit and does not meet the design specs.  Lots 1 and 2 have variances under 100 PSI and meet the design specs.   The total PSI meets the design specs, the variance is below 100 PSI.
