@@ -22,7 +22,8 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 ## Results 
 
 ### Linear Regression to Predict MPG
-- Linear Regression
+
+#### Linear Regression
 
 ![Getting Started](images/D1%20-%20lm.png)
 
@@ -75,5 +76,15 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 ![Getting Started](images/D3-Lot3.png)
 
 - The p-value(0.04168) is slightly below the normal level of 0.05.  The mean of lot 3 is 3.86 points below th population mean (1500). Therefore, there is a slight statistical difference between lot 3 and the population mean.
+
+### Study Design: MechaCar vs Competition
+
+One metric to test would be the frequency of maintenance or repairs for the vehicle per year.  A chi-squared test could be performed to show the number of times the MechaCar and several competition cars had to be sent in for maintenance or repairs.   
+
+Null Hypothesis:  There is no difference in the number of the times the cars had to sent in for repairs or maintenance.
+
+Alternative Hypothesis:  There is a difference in the number of the times the cars had to sent in for repairs or maintenance.
+
+We would need the categorical data (MechaCar, competition cars) and another set of categorical data (multiple years).  Also, the number of times each car was brought in for maintenance or repairs per year.
 
 
